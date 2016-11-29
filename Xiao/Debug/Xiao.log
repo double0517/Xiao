@@ -1,4 +1,4 @@
-﻿生成启动时间为 2016/11/29 21:53:54。
+﻿生成启动时间为 2016/11/29 21:55:49。
      1>项目“C:\Users\Administrator\Desktop\Xiao\Xiao\Xiao.vcxproj”在节点 2 上(build 个目标)。
      1>InitializeBuildStatus:
          正在对“Debug\Xiao.unsuccessfulbuild”执行 Touch 任务。
@@ -266,4 +266,4 @@
 
 生成失败。
 
-已用时间 00:00:03.34
+已用时间 00:00:03.71
