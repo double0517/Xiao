@@ -1,0 +1,269 @@
+﻿生成启动时间为 2016/11/29 21:53:54。
+     1>项目“C:\Users\Administrator\Desktop\Xiao\Xiao\Xiao.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\Xiao.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\软件安装\VS2010\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _MBCS /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Debug\Xiao.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1264): error C2091: 函数返回函数
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(2590): 参见对正在编译的类 模板 实例化“ATL::CStringT<BaseType,StringTraits>”的引用
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1320): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1332): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1339): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1264): error C2091: 函数返回函数
+                 d:\软件安装\vs2010\vc\atlmfc\include\afxstr.h(87): 参见对正在编译的类 模板 实例化“ATL::CStringT<BaseType,StringTraits>”的引用
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2556: “ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(wchar_t)”: 重载函数与“ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(char)”只是在返回类型上不同
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2371: “ATL::CStringT<BaseType,StringTraits>::operator =”: 重定义；不同的基类型
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2059: 语法错误:“{”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2059: 语法错误:“return”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2238: 意外的标记位于“;”之前
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1280): error C2146: 语法错误: 缺少“;”(在标识符“CStringT”的前面)
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1264): error C2091: 函数返回函数
+                 d:\软件安装\vs2010\vc\atlmfc\include\afxstr.h(89): 参见对正在编译的类 模板 实例化“ATL::CStringT<BaseType,StringTraits>”的引用
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2556: “ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(char)”: 重载函数与“ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(wchar_t)”只是在返回类型上不同
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2371: “ATL::CStringT<BaseType,StringTraits>::operator =”: 重定义；不同的基类型
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2059: 语法错误:“{”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2059: 语法错误:“return”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2238: 意外的标记位于“;”之前
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1280): error C2146: 语法错误: 缺少“;”(在标识符“CStringT”的前面)
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(307): error C2039: “AppendFormat”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(310): error C2039: “AppendFormat”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(313): error C2039: “AppendFormat”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(316): error C2039: “AppendFormat”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(346): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(425): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atltime.h(432): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\afx.h(1802): warning C4159: #pragma pack(pop,...) : 将先前入栈的标识符“<InternalPragmaState>” 弹出栈
+     1>d:\软件安装\vs2010\vc\atlmfc\include\afxwin.h(19): warning C4103: “d:\软件安装\vs2010\vc\atlmfc\include\afxwin.h”: 包括标题后更改了对齐方式，可能是由于缺少 #pragma pack(pop)
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1264): error C2091: 函数返回函数
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(3047): 参见对正在编译的类 模板 实例化“ATL::CStringT<BaseType,StringTraits>”的引用
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\atlstr.h(1282): 参见对正在编译的类 模板 实例化“ATL::CStringElementTraits<T>”的引用
+                 with
+                 [
+                     T=ATL::CAtlStringA
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2556: “ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(wchar_t)”: 重载函数与“ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(char)”只是在返回类型上不同
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2371: “ATL::CStringT<BaseType,StringTraits>::operator =”: 重定义；不同的基类型
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=ATL::StrTraitATL<char,ATL::ChTraitsCRT<char>>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2059: 语法错误:“{”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2059: 语法错误:“return”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2238: 意外的标记位于“;”之前
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1280): error C2146: 语法错误: 缺少“;”(在标识符“CStringT”的前面)
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1264): error C2091: 函数返回函数
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(3047): 参见对正在编译的类 模板 实例化“ATL::CStringT<BaseType,StringTraits>”的引用
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\atlstr.h(1288): 参见对正在编译的类 模板 实例化“ATL::CStringElementTraits<T>”的引用
+                 with
+                 [
+                     T=ATL::CAtlStringW
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2091: 函数返回函数
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2556: “ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(char)”: 重载函数与“ATL::CStringT<BaseType,StringTraits> &(__cdecl *ATL::CStringT<BaseType,StringTraits>::operator =(char))(wchar_t)”只是在返回类型上不同
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1273): error C2371: “ATL::CStringT<BaseType,StringTraits>::operator =”: 重定义；不同的基类型
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+                 d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1263) : 参见“ATL::CStringT<BaseType,StringTraits>::operator =”的声明
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=ATL::StrTraitATL<wchar_t,ATL::ChTraitsCRT<wchar_t>>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2059: 语法错误:“{”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1274): error C2334: “{”的前面有意外标记；跳过明显的函数体
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2059: 语法错误:“return”
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1276): error C2238: 意外的标记位于“;”之前
+     1>d:\软件安装\vs2010\vc\atlmfc\include\cstringt.h(1280): error C2146: 语法错误: 缺少“;”(在标识符“CStringT”的前面)
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlstr.h(1293): warning C4159: #pragma pack(pop,...) : 将先前入栈的标识符“<InternalPragmaState>” 弹出栈
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlcomtime.h(303): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlcomtime.h(320): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlcomtime.h(329): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlcomtime.h(350): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlcomtime.h(359): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlcomtime.h(386): error C2039: “LoadStringA”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=char,
+                     StringTraits=StrTraitMFC_DLL<char>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlimage.h(1593): error C2039: “Tokenize”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+     1>d:\软件安装\vs2010\vc\atlmfc\include\atlimage.h(1596): error C2039: “CompareNoCase”: 不是“ATL::CStringT<BaseType,StringTraits>”的成员
+                 with
+                 [
+                     BaseType=wchar_t,
+                     StringTraits=StrTraitMFC_DLL<wchar_t>
+                 ]
+     1>已完成生成项目“C:\Users\Administrator\Desktop\Xiao\Xiao\Xiao.vcxproj”(build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:03.34

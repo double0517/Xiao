@@ -63,6 +63,7 @@ BEGIN_MESSAGE_MAP(CXiaoDlg, CDialogEx)
 	ON_WM_SYSCOMMAND()
 	ON_WM_PAINT()
 	ON_WM_QUERYDRAGICON()
+	ON_BN_CLICKED(IDC_BUTTON1, &CXiaoDlg::OnBnClickedButton1)
 END_MESSAGE_MAP()
 
 
@@ -151,3 +152,9 @@ HCURSOR CXiaoDlg::OnQueryDragIcon()
 	return static_cast<HCURSOR>(m_hIcon);
 }
 
+
+
+void CXiaoDlg::OnBnClickedButton1()
+{
+	// TODO: �ڴ���ӿؼ�֪ͨ����������
+}
